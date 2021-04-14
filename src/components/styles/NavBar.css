@@ -1,0 +1,62 @@
+.header {
+  height: 100vh;
+  background-image: url('../../images/background_header.jpg');
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.header__info > h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.header__info > p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.header:before {
+	content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.733);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.formulario > input {
+  width: 50%;
+  height: 60px;
+}
+
+.formulario > button {
+  width: 150px;
+}
+
+.header__container {
+  height: 100%;
+}
+
+.header__image > img {
+  width: 150px;
+  height: 40px;
+}
+
+.header__title {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.select {
+  background-color: transparent;
+  color: #FFF;
+}
