@@ -17,7 +17,7 @@ class NavBar extends React.Component {
               <div className="d-flex justify-content-end">
                 <Icon.Globe />
                 <select className="form-select mr-4 select" aria-label="Default select example">
-                  <option selected>Español</option>
+                  <option selected>Españo</option>
                   <option value="1">English</option>
                 </select>
                   <a href="#" className="btn btn-danger">Iniciar Sesion</a>
