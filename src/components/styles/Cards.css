@@ -1,4 +1,4 @@
-.cards {
+.cards__tv {
   display: flex;
   align-items: center;
   background-color: black;
@@ -36,4 +36,74 @@
 .image__video > video {
   width: 100%;
   height: 100%;
+}
+
+/* ESTILOS CARD PHONE */
+
+.cards__phone {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.cards__phone-info {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img__phone {
+  width: 500px;
+}
+
+.img__phone > img {
+  width: 100%;
+}
+
+.phone__info {
+  background-color: black;
+  border: 2px solid rgba(255,255,255,.25);
+  border-radius: 1rem;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  position: absolute;
+  bottom: 8%;
+  left: 15%;
+}
+
+.phone__gif {
+  display: flex;
+  width: 100px;
+  background-image: url('../../images/download-icon.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img__container-phone {
+  width: 60px;
+  height: 80px;
+}
+
+.img__container-phone > img {
+  width: 100%;
+  height: 100%;
+}
+
+.info__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info__container > p {
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.info__container > span {
+  color: blue;
+  margin-bottom: 8px;
 }
